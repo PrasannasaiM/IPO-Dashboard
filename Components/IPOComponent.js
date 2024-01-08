@@ -14,7 +14,11 @@ const IPOComponent = () => {
 
   return (
     <div>
-      <h2>Upcoming IPOs</h2>
+      <h2>Upcoming IPOs given below</h2>
+      <h3>1.Sameera Agro and Infra Limited</h3>
+      <h3>2.Facebook</h3>
+      <h3>3.General Motors</h3>
+      <h3>4.Prasanna transport Ltd</h3>
       {/* Display IPO data */}
       {ipoData.map(ipo => (
         <div key={ipo.id}>
