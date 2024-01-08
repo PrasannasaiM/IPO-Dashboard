@@ -4,6 +4,7 @@ import RegistrationForm from './Components/RegistrationForm';
 import Loginform from './Components/Loginform';
 import Homepage from './Components/Homepage';
 import IPOComponent from './Components/IPOComponent';
+import Currencyrate from './Components/Currencyrate';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
            <Route path="/RegistrationForm" element={<RegistrationForm/>} />
            <Route path="/Loginform" element={<Loginform/>} />
            <Route path="/IPO" element={<IPOComponent/>} />
+           <Route path="/Currencyrate" element={<Currencyrate/>} />
         </Routes>
     </BrowserRouter> 
     </div> 
