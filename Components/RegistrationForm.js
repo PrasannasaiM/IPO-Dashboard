@@ -3,9 +3,9 @@ import axios from 'axios'; // Make sure to have Axios installed
 
 const RegistrationForm = () => {
   const [formData, setFormData] = useState({
-    username: '',
-    email: '',
-    password: ''
+    username: 'IPO DASHBOARD',
+    email: 'ipodashboard@gmail.com',
+    password: 'ipodashboard'
   });
 
   const { username, email, password } = formData;
